@@ -1,3 +1,4 @@
+/* RESET */
 * {
     margin: 0;
     padding: 0;
@@ -63,6 +64,7 @@ main {
     border-top: 1px solid #111827;
 }
 
+/* Generic section heading (used for Experience, Skills, Projects, Contact) */
 .section h2 {
     text-transform: uppercase;
     letter-spacing: 0.18em;
@@ -190,6 +192,37 @@ main {
     color: #9ca3af;
 }
 
+/* ABOUT GLOW CARD */
+
+.about-glow-card {
+    background: #0b0d14;
+    border-radius: 22px;
+    padding: 36px 40px;
+    max-width: 780px;
+    margin: 0 auto;
+    border: 1px solid #1f2937;
+    position: relative;
+    box-shadow:
+        0 0 20px rgba(99, 102, 241, 0.15),
+        0 0 40px rgba(99, 102, 241, 0.08),
+        0 0 60px rgba(99, 102, 241, 0.06);
+}
+
+.about-glow-card h2 {
+    text-transform: uppercase;
+    letter-spacing: 0.18em;
+    font-size: 0.95rem;
+    color: #9ca3af;
+    margin-bottom: 18px;
+}
+
+.about-glow-card p {
+    font-size: 1rem;
+    color: #d1d5db;
+    margin-bottom: 16px;
+    line-height: 1.7;
+}
+
 /* TIMELINE */
 
 .timeline {
@@ -225,9 +258,15 @@ main {
     margin-bottom: 6px;
 }
 
-.timeline-item p {
+.timeline-item p,
+.timeline-item ul {
     font-size: 0.94rem;
     color: #d1d5db;
+}
+
+.timeline-item ul {
+    padding-left: 18px;
+    margin-top: 4px;
 }
 
 /* SKILLS */
@@ -248,7 +287,7 @@ main {
     color: #e5e7eb;
 }
 
-/* CARDS / PROJECTS */
+/* PROJECT CARDS */
 
 .card-grid {
     display: grid;
@@ -317,34 +356,4 @@ footer {
     .hero h1 {
         font-size: 2.2rem;
     }
-    .about-glow-card {
-    background: #0b0d14;
-    border-radius: 22px;
-    padding: 36px 40px;
-    max-width: 780px;
-    margin: 0 auto;
-    border: 1px solid #1f2937;
-    position: relative;
-    box-shadow:
-        0 0 20px rgba(99, 102, 241, 0.15),
-        0 0 40px rgba(99, 102, 241, 0.08),
-        0 0 60px rgba(99, 102, 241, 0.06);
 }
-
-.about-glow-card h2 {
-    text-transform: uppercase;
-    letter-spacing: 0.18em;
-    font-size: 0.95rem;
-    color: #9ca3af;
-    margin-bottom: 18px;
-}
-
-.about-glow-card p {
-    font-size: 1rem;
-    color: #d1d5db;
-    margin-bottom: 16px;
-    line-height: 1.7;
-}
-}
-
-
