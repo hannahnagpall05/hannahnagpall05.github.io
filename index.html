@@ -1,57 +1,219 @@
+
+Hannah Nagpall
+18:16 (0 minutes ago)
+to me
+
 <!DOCTYPE html>
 <html lang="en">
 <head>
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <title>My Portfolio</title>
+    <title>Hannah Nagpall | Portfolio</title>
     <link rel="stylesheet" href="style.css" />
 </head>
 
 <body>
-
-    <header>
-        <h1>Your Name</h1>
-        <p>Student | Research Enthusiast | Aspiring Developer</p>
+    <header class="nav">
+        <div class="logo">HN</div>
+        <nav>
+            <a href="#about">About</a>
+            <a href="#highlights">Highlights</a>
+            <a href="#skills">Skills</a>
+            <a href="#experience">Experience</a>
+            <a href="#projects">Projects</a>
+            <a href="#contact">Contact</a>
+        </nav>
     </header>
 
-    <section class="about">
-        <h2>About Me</h2>
+    <!-- HERO -->
+    <section class="hero">
+        <div class="hero-text">
+            <p class="eyebrow">Honors CS Student • Future Software Engineer</p>
+            <h1>Hi, I’m Hannah Nagpall.</h1>
+            <p class="hero-subtitle">
+                I’m an honors computer science student and former competitive tennis player,
+                combining discipline from the court with curiosity in tech. I love building
+                things, learning fast, and saying my story out loud instead of hiding it.
+            </p>
+
+            <div class="hero-buttons">
+                <a href="YOUR_RESUME_FILE.pdf" class="btn primary" download>Download Résumé</a>
+                <a href="https://www.linkedin.com/in/hannah-nagpall" class="btn secondary" target="_blank">
+                    View LinkedIn
+                </a>
+            </div>
+        </div>
+
+        <div class="hero-card">
+            <h3>Quick Snapshot</h3>
+            <ul>
+                <li>Honors CS student @ TAMUK</li>
+                <li>Externship + app dev internship experience</li>
+                <li>Scholarships & awards for academic excellence</li>
+                <li>Former competitive tennis athlete</li>
+            </ul>
+        </div>
+    </section>
+
+    <!-- ABOUT -->
+    <section id="about" class="section about">
+        <h2>Who Am I?</h2>
         <p>
-            I am a student passionate about coding, research, and building real-world projects.
-            I am currently learning Python, HTML, CSS, and working towards doing impactful research internships.
+            I’m Hannah, an international honors computer science student who loves turning ideas
+            into real projects. Tennis taught me focus, resilience, and how to show up when
+            it matters. Now I bring that same mindset to code, research, and every opportunity
+            I get in tech and academia.
+        </p>
+        <p>
+            I’m not shy about my story — I’m a first-gen young woman in tech, a high-achieving
+            student, and someone who wants to make my work, my background, and my journey visible.
         </p>
     </section>
 
-    <section class="skills">
-        <h2>Skills</h2>
-        <ul>
-            <li>Python (beginner)</li>
-            <li>HTML & CSS</li>
-            <li>Data Analysis (learning)</li>
-            <li>OOP (Java or C++ — update based on you)</li>
-        </ul>
+    <!-- HIGHLIGHTS -->
+    <section id="highlights" class="section highlights">
+        <h2>Highlights</h2>
+        <div class="cards">
+            <div class="card">
+                <h3>Academic Honors</h3>
+                <p>
+                    Honors program student with university recognition and a strong GPA.
+                    Selected for competitive scholarships and awards, including a presidential-level honor.
+                </p>
+            </div>
+
+            <div class="card">
+                <h3>Industry Exposure</h3>
+                <p>
+                    Experience as an extern and app development intern, exploring software
+                    engineering, problem solving, and real-world tech environments.
+                </p>
+            </div>
+
+            <div class="card">
+                <h3>Tennis & Leadership</h3>
+                <p>
+                    Years of tennis competition built discipline, time management and mental toughness.
+                    Those same traits now drive my work in CS, research and projects.
+                </p>
+            </div>
+        </div>
     </section>
 
-    <section class="projects">
+    <!-- SKILLS -->
+    <section id="skills" class="section skills">
+        <h2>Skills & Tools</h2>
+        <div class="chips">
+            <span class="chip">Python</span>
+            <span class="chip">Java / OOP</span>
+            <span class="chip">HTML & CSS</span>
+            <span class="chip">Data Visualization (learning)</span>
+            <span class="chip">Problem Solving</span>
+            <span class="chip">Teamwork</span>
+            <span class="chip">Public Speaking</span>
+            <span class="chip">Time Management</span>
+        </div>
+    </section>
+
+    <!-- EXPERIENCE -->
+    <section id="experience" class="section experience">
+        <h2>Experience & Involvement</h2>
+        <div class="timeline">
+
+            <div class="timeline-item">
+                <h3>App Development Intern</h3>
+                <p class="timeline-org">GSPANN (Remote / Hybrid)</p>
+                <p class="timeline-meta">Software & application development exposure</p>
+                <p>
+                    Worked with engineering teams, learned how real-world applications are structured,
+                    and started connecting classroom concepts to production code and workflows.
+                </p>
+            </div>
+
+            <div class="timeline-item">
+                <h3>Externship Experience</h3>
+                <p class="timeline-org">The Home Depot (Externship)</p>
+                <p class="timeline-meta">Technology & business exposure</p>
+                <p>
+                    Gained insight into large-scale technology environments, teamwork, and how
+                    engineering, design, and business come together in real products.
+                </p>
+            </div>
+
+            <div class="timeline-item">
+                <h3>Honors & Scholarship Programs</h3>
+                <p class="timeline-org">Texas A&M University–Kingsville</p>
+                <p class="timeline-meta">Honors student & award recipient</p>
+                <p>
+                    Recognized for academic excellence and leadership with competitive honors
+                    and scholarship awards, including a presidential-level distinction.
+                </p>
+            </div>
+
+            <div class="timeline-item">
+                <h3>Tennis Athlete</h3>
+                <p class="timeline-org">Competitive Tennis</p>
+                <p class="timeline-meta">Discipline • Consistency • Grit</p>
+                <p>
+                    Years of tennis training and competition taught me how to handle pressure,
+                    stay consistent, and work through failure — skills I now bring to CS and tech.
+                </p>
+            </div>
+        </div>
+    </section>
+
+    <!-- PROJECTS -->
+    <section id="projects" class="section projects">
         <h2>Projects</h2>
+        <div class="cards">
+            <div class="card">
+                <h3>Raman Spectroscopy Analysis (Planned)</h3>
+                <p>
+                    A scientific analysis project using Python to process Raman spectroscopy data,
+                    visualize patterns, and explore how software can support research.
+                </p>
+            </div>
 
-        <div class="project-card">
-            <h3>Raman Spectroscopy Analysis</h3>
-            <p>A scientific analysis project using Python (planned). Will include data processing and visualization.</p>
+            <div class="card">
+                <h3>Personal Portfolio Website</h3>
+                <p>
+                    This website, built from scratch using HTML and CSS and hosted on GitHub Pages,
+                    to own my narrative and share my work, journey, and goals openly.
+                </p>
+            </div>
+
+            <div class="card">
+                <h3>More Coming Soon</h3>
+                <p>
+                    I’m actively learning and will keep adding projects in web development, data,
+                    and software engineering as I grow.
+                </p>
+            </div>
         </div>
-
-        <div class="project-card">
-            <h3>Portfolio Website</h3>
-            <p>A personal website built completely by me using HTML and CSS.</p>
-        </div>
-
     </section>
 
-    <section class="contact">
-        <h2>Contact</h2>
-        <p>Email: yourname@email.com</p>
-        <p>LinkedIn: <a href="YOUR_LINKEDIN_URL">Visit my profile</a></p>
+    <!-- CONTACT -->
+    <section id="contact" class="section contact">
+        <h2>Let’s Connect</h2>
+        <p>
+            I’m always open to conversations about internships, research, mentorship,
+            or just sharing experiences as a student in tech.
+        </p>
+        <div class="hero-buttons">
+            <a href="mailto:YOUR_EMAIL_HERE" class="btn primary">Email Me</a>
+            <a href="https://www.linkedin.com/in/hannah-nagpall" class="btn secondary" target="_blank">
+                Connect on LinkedIn
+            </a>
+        </div>
     </section>
 
+    <footer>
+        <p>© <span id="year"></span> Hannah Nagpall. Built with HTML, CSS, and persistence.</p>
+    </footer>
+
+    <script>
+        // set current year automatically
+        document.getElementById("year").textContent = new Date().getFullYear();
+    </script>
 </body>
 </html>
